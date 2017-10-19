@@ -137,6 +137,7 @@ void TorqueLv_Set(void)
     if(gTimer[1] > 0) {
         if(Get_gKey() == KEY_V1) { //按键档位增加
             info_def.torque_level++;
+            ReWrite_All();
             if(info_def.torque_level == MAX_TORQUE) info_def.torque_level = 0;
             Set_gKey(NO_KEY);//清除按键
         }
