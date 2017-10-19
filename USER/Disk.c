@@ -255,7 +255,7 @@ u8 Cal_Val(u8  str[],u8 k)
         break;
     case 1:
         if(str[1] <= '9' && str[1] > '0')return 0;//不能大于10
-        if(str[0] >= '5' || str[0] < '0')return 0;//不能大于4，不能小于1
+        if(str[0] >= '6' || str[0] < '0')return 0;//不能大于5，不能小于1
         break;
     case 2:
         set_ver = atoi((char const *)str);
