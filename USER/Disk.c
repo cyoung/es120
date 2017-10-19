@@ -98,7 +98,7 @@ static u8  *gBuff = (u8*) &gDisk_var[0];
 const u8   gFat_data[]= {0xF8,0xFF,0xFF,0xFF,0xFF,0xFF};//{0xF8,0XFF,0XFF,0xff,0X0f};//
 
 const char *gKey_words[] = {"StartAngle","Gear","MotorTimeCnt","Ver"};
-const char *gDef_set[]   = {"StartAngle=2","Gear=0","MotorTimeCnt=0","Ver=1.8"};
+const char *gDef_set[]   = {"StartAngle=2","Gear=0","MotorTimeCnt=0","Ver=1.8b"};
 const char *gSet_range[] = {"      #(2~10)\r\n","            #(0~5)\r\n","    #ReadOnly\r\n","           #ReadOnly\r\n"};
 
 static u8 gFile_con[512];

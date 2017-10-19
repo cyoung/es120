@@ -37,7 +37,7 @@ typedef struct {
 #define POWER_ON_1()  GPIO_SetBits(GPIOD,GPIO_Pin_0)
 #define POWER_OFF_1() GPIO_ResetBits(GPIOD,GPIO_Pin_0)
 
-#define SHOTDOWN_TIME   1500    //关机时间单位10毫秒
+#define SHOTDOWN_TIME   3000    //关机时间单位10毫秒
 
 extern volatile u32 gTimer[6];
 extern vu8 gKey_Press;
