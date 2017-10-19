@@ -52,3 +52,11 @@ Temporary Items
 *.pbd
 *.browse
 *.linf
+*.dep
+*.ewd
+*.ewt
+*.wsdt
+*.hex
+*.out
+*.o
+*.map
